@@ -17,7 +17,7 @@
 #########
 
 #db name
-name=my-example-db
+name=tb_100
 
 # k-mer size, can contain multiple values
 k=18
@@ -26,14 +26,16 @@ k=18
 # ANTIBIOTICS #
 ###############
 
-antibiotics:=ant1 ant2
+antibiotics:=Rifampicin Isoniazid Ethambutol Pyrazinamide
 
 ###############
 # BREAKPOINTS #
 ###############
 
-ant1:=0.06  # Antibiotics 1
-ant2:=0.50  # Antibiotics 2
+Rifampicin:=0.06 
+Isoniazid:=0.50
+Ethambutol:=000
+Pyrazinamide:=000
 
 export
 
