@@ -32,10 +32,10 @@ antibiotics:=Rifampicin Isoniazid Ethambutol Pyrazinamide
 # BREAKPOINTS #
 ###############
 
-Rifampicin:=0.06 
-Isoniazid:=0.50
-Ethambutol:=000
-Pyrazinamide:=000
+Rifampicin:=1 
+Isoniazid:=1
+Ethambutol:=1
+Pyrazinamide:=1
 
 export
 
