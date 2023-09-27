@@ -26,16 +26,16 @@ k=18
 # ANTIBIOTICS #
 ###############
 
-antibiotics:=Rifampicin Isoniazid Ethambutol Pyrazinamide
+antibiotics:=Ethambutol Isoniazid Pyrazinamide Rifampicin
 
 ###############
 # BREAKPOINTS #
 ###############
 
-Rifampicin:=1 
+Ethambutol:=1 
 Isoniazid:=1
-Ethambutol:=1
 Pyrazinamide:=1
+Rifampicin:=1
 
 export
 
