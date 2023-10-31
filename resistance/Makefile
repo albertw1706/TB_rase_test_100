@@ -27,7 +27,7 @@ step1: ## Print order of leaves to a file (to keep the same order everywhere)
 	rase_db_tree_print_order.py -i ../tree/tree.newick > _leaves.tsv
 
 step2: ## Assemble metadata tables
-	cat ../published/RASEE_DB_100.tsv | sort_with_header.sh -k 1 > _isolates.tsv
+	cat ../published/RASE_DB_1500.tsv | sort_with_header.sh -k 1 > _isolates.tsv
 	cut -f1 _isolates.tsv | tail -n +2 > _taxids.txt
 	cut -f2 _isolates.tsv | tail -n +2 > _phylogroups.txt
 
